@@ -1,0 +1,30 @@
+.container {
+    margin: 0 auto;
+    width: 1024px;
+    height: 768px;
+    background: #eee;
+    overflow: hidden;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 768px;
+    align-items: center
+}
+
+.flickr-img {
+    width: 196px;
+    height: 300px;
+    border: 2px solid #eee;
+}
+
+.flickr-img.active {
+    border: 2px solid blue;
+}
